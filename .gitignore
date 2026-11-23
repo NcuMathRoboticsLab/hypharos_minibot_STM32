@@ -1,7 +1,7 @@
 # Keil build artifact
-OBJ/*
-!OBJ/*.hex
-!OBJ/*.axf
+**/OBJ/*
+!**/OBJ/*.hex
+!**/OBJ/*.axf
 
 # Keil config, bak, build log
 *.uvguix.*
