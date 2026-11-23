@@ -1,0 +1,12 @@
+# Keil build artifact
+OBJ/*
+!OBJ/*.hex
+!OBJ/*.axf
+
+# Keil config, bak, build log
+*.uvguix.*
+*.uvgui.*
+*.uvgui_*
+*.bak
+*.dep
+*.build_log.htm

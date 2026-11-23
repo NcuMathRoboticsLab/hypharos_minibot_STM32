@@ -1,0 +1,13 @@
+* text=auto
+
+# Keil project files and source code: use CRLF when checked out on Windows
+*.c        text eol=crlf
+*.h        text eol=crlf
+*.s        text eol=crlf
+*.uvproj*  text eol=crlf
+*.uvopt*   text eol=crlf
+
+# Firmware and binaries: no conversion
+*.hex  -text
+*.axf  binary
+*.zip  binary
